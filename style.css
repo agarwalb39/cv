@@ -1,0 +1,195 @@
+body {
+    background-color: white;
+}
+.navbar-nav li:hover {
+    background-color: grey;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#navb {
+    position: static;
+}
+.navbar-nav li {
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+}
+.navbar-brand {
+    font-family: monospace;
+    font-size: 3rem;
+}
+#active {
+    text-decoration: overline;
+}
+.header {
+    background-color: lightslategray;
+    margin: 100px;
+    height: 190px;
+    text-align: center;
+    padding-top : 50px;
+    position: relative;
+    left: 20px;
+    color: whitesmoke;
+    font-family: cursive;
+    border-radius: 100px;
+}
+.detail {
+    text-align: center;
+    text-decoration: solid;
+}
+hr {
+    width: 6cm;
+    text-decoration: solid;
+}
+.contact {
+    padding: 60px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+}
+.heading {
+    font-family: monospace;
+    padding-bottom: 20px;
+}
+.image {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+.address {
+    padding: 100px;
+    background-color: whitesmoke;
+}
+.Siliguri {
+    text-align: center;
+    padding-left: 30px;
+    padding-Right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline;
+
+}
+.Gangtok {
+    text-align: center;
+    padding-left: 30px;
+    padding-Right: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.ender {
+    text-align: center;
+    background-color: darkgrey;
+    padding: 30px;
+}
+.btn {
+    background-color: darkslategrey ;
+    color: white;
+    position: relative;
+    left: 10px; 
+    display: grid;
+    grid-row: 1;
+    margin-top: 10px;
+}
+
+
+@media(min-width:700px) {
+    .btm {
+        background-color: darkslategrey;
+        color: white;
+        position: relative;
+        left: 10px; 
+        display: grid;
+        grid-row: 1;
+        margin-top: 10px;
+    }
+    body {
+        background-color: white;
+    }
+    .navbar-nav li:hover {
+        background-color: grey;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    #navb {
+        position: static;
+    }
+    .navbar-nav li {
+        padding-left: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
+    }
+    .navbar-brand {
+        font-family: monospace;
+        font-size: 3rem;
+    }
+    #active {
+        text-decoration: overline;
+    }
+    .header {
+        background-color: lightslategray;
+        margin: 100px;
+        height: 190px;
+        text-align: center;
+        padding-top : 50px;
+        position: relative;
+        left: 20px;
+        color: whitesmoke;
+        font-family: cursive;
+        border-radius: 100px;
+    }
+    .detail {
+        text-align: center;
+        text-decoration: solid;
+    }
+    hr {
+        width: 6cm;
+        text-decoration: solid;
+    }
+    .contact {
+        padding: 60px;
+        background-color: whitesmoke;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .heading {
+        font-family: monospace;
+        padding-bottom: 20px;
+    }
+    .image {
+        padding: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .address {
+        padding: 100px;
+        background-color: whitesmoke;
+    }
+    .Siliguri {
+        text-align: center;
+        padding-left: 30px;
+        padding-Right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: inline;
+    
+    }
+    .Gangtok {
+        text-align: center;
+        padding-left: 30px;
+        padding-Right: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .ender {
+        text-align: center;
+        background-color: darkgrey;
+        padding: 30px;
+    }
+}
+
+
+
+
+
